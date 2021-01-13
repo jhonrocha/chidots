@@ -2,3 +2,5 @@ openbox
 obconf
 lxappearance-obconf
 tint2
+
+nitrogen
