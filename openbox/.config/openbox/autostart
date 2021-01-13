@@ -17,4 +17,3 @@
 #xfce-mcs-manager &
 tint2 &
 nitrogen --restore &
-rofi -show drun -columns 2 &
