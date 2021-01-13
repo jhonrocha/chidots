@@ -1,0 +1,4 @@
+openbox
+obconf
+lxappearance-obconf
+tint2
