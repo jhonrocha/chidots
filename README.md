@@ -1,0 +1,2 @@
+# chidots
+Dotfiles for Chi
