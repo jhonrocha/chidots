@@ -15,6 +15,6 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
-tint 2 &
+tint2 &
 nitrogen --restore &
 rofi -show drun -columns 2 &

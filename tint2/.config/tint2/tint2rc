@@ -100,21 +100,21 @@ border_color_pressed = #ffffff 67
 # Panel
 panel_items = PPPPTPPPE:SBC
 panel_size = 97% 32
-panel_margin = 0 8
+panel_margin = 0 0
 panel_padding = 2 0 2
 panel_background_id = 1
 wm_menu = 1
 panel_dock = 0
 panel_pivot_struts = 0
 panel_position = bottom center horizontal
-panel_layer = bottom
+panel_layer = top
 panel_monitor = all
 panel_shrink = 0
 autohide = 0
 autohide_show_timeout = 0
 autohide_hide_timeout = 0.5
 autohide_height = 2
-strut_policy = none
+strut_policy = follow_size
 panel_window_name = tint2
 disable_transparency = 1
 mouse_effects = 1
@@ -139,22 +139,22 @@ taskbar_always_show_all_desktop_tasks = 1
 taskbar_name_padding = 0 4
 taskbar_name_background_id = 0
 taskbar_name_active_background_id = 0
-taskbar_name_font = Monospace 10
+taskbar_name_font = FiraMono Nerd Font 12
 taskbar_name_font_color = #e3e3e3 100
 taskbar_name_active_font_color = #ffffff 100
 taskbar_distribute_size = 1
-taskbar_sort_order = mru
+taskbar_sort_order = none
 task_align = left
 
 #-------------------------------------
 # Task
 task_text = 1
-task_icon = 0
+task_icon = 1
 task_centered = 1
 urgent_nb_of_blink = 100000
 task_maximum_size = 110 20
 task_padding = 21 9 10
-task_font = Monospace 8
+task_font = FiraMono Nerd Font 12
 task_tooltip = 0
 task_thumbnail = 0
 task_thumbnail_size = 188
@@ -200,7 +200,7 @@ launcher_item_app = /usr/share/applications/gpicview.desktop
 # Clock
 time1_format = %a %d %H:%M
 time2_format = 
-time1_font = Monospace 8
+time1_font = FiraMono Nerd Font 12
 time1_timezone = 
 time2_timezone = 
 clock_font_color = #ffffff 100
@@ -220,8 +220,8 @@ battery_tooltip = 0
 battery_low_status = 15
 battery_low_cmd = notify-send 'Batería baja, conecte el dispositivo a la corriente'
 battery_full_cmd = 
-bat1_font = Monospace 8
-bat2_font = Cantarell 0
+bat1_font = FiraMono Nerd Font 12
+bat2_font = FiraMono Nerd Font 0
 battery_font_color = #ffffff 100
 bat1_format = 
 bat2_format = 
@@ -259,7 +259,7 @@ button_font_color = #000000 100
 button_padding = 6 0
 button_background_id = 0
 button_centered = 0
-button_max_icon_size = 25
+button_max_icon_size = 20
 
 #-------------------------------------
 # Button 2
@@ -275,7 +275,7 @@ button_font_color = #000000 100
 button_padding = 6 0
 button_background_id = 0
 button_centered = 0
-button_max_icon_size = 25
+button_max_icon_size = 20
 
 #-------------------------------------
 # Button 3
@@ -291,7 +291,7 @@ button_font_color = #000000 100
 button_padding = 6 0
 button_background_id = 0
 button_centered = 0
-button_max_icon_size = 25
+button_max_icon_size = 20
 
 
 #-------------------------------------
