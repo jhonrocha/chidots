@@ -4,3 +4,4 @@ lxappearance-obconf
 tint2
 
 nitrogen
+papirus-icon-theme
